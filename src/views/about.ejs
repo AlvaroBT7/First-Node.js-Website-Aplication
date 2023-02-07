@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <%- include("partials/head") %>
+</head>
+<body class="about-body">
+    
+    <%- include("partials/navegation") %>
+    <main class="about-main">
+        <div class="about-general-container">
+      
+          <article class="about-article about-first-article">
+            <div class="about-title-container">
+              <h1><%= title %></h1>
+            </div>
+          </article>
+      
+          <article class="about-article">
+      
+            <section class="about-section">
+              <h1>1) Variables</h1>
+            </section>
+      
+            <section class="about-section">
+              <h2>- Declarar variables</h2>
+              <p>
+                En javaScript existen varios tipos de variables. Para declarar cada una de ellas, se utiliza una sintaxis distinta. Si utilizamos la palabra reservada del lenguaje de progrmacion "let", estaremos declarando una variable regional. Por el contrario, si declaramos una variable con "var", estaremos declarando una variable global en nuestro programa. Tambien existen las variables "const", que al igual que con "let", son regionales. La diferencia que tiene respecto a las "let", es que con variables constantes, oseal, su valor no pude ser reasignado una vez declarada la variable.
+              </p>
+            </section>
+      
+            <section class="about-section">
+              <h2>- Imprimir variables en la consola</h2>
+              <p>
+                En muchas ocasiones queremos saber cual es el valor exacto de una variable. Por consiguiente, de alguna forma tenemos que mostrar el resultado de la variable para saber que contien. Para mostrar el contenido de una variable, podemos imprimir la variable en consola.
+              </p>
+            </section>
+      
+          </article>
+      
+        </div>
+      </main>
+    <%- include("partials/footer") %>
+
+</body>
+</html>

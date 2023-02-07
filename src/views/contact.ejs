@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <%- include("partials/head") %>
+</head>
+<body class="contact-body">
+    
+    <%- include("partials/navegation") %>
+    <main class="contact-main">
+        <article class="contact-article">
+            <section class="contact-section head">
+                <h1><%= title %></h1>
+            </section>
+            <section class="contact-section">
+                <form class="contact-form">
+                    <div class="contact-input-container">
+                        <input type="text" class="contact-input" id="name" placeholder="Nombre">
+                        <input type="email" class="contact-input" id="email" placeholder="Email">
+                        <textarea id="text" placeholder="Escribe to mensaje"></textarea>
+                        <button id="btn">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
+    <%- include("partials/footer") %>
+    
+</body>
+</html>
