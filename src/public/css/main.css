@@ -13,6 +13,7 @@
     --button-hover-color: rgb(0, 140, 255);
     --main-page-color: rgb(181, 187, 255);
     --main-page-color-hover: rgb(126, 132, 207);
+    --small-text-size:  15px;
 }
 
 /* Genral styles */
@@ -174,19 +175,19 @@ footer div {
     box-shadow: none;
     color: #222;
     line-height: 1.5;
+    padding: 0;
 }
 
 .footer-container .footer-title {
     padding-bottom: 20px;
-    font-size: 27px;
+    font-size: var(--subtitle-size);
 }
 
 .footer-container .footer-p {
-    font-size: 12px;
+    font-size: var(--small-text-size);
 }
 
 .footer-bottom-message {
-    font-size: 10px;
     background-color: rgb(36, 36, 36);
     width: 100%;
     padding: 20px 0;
@@ -200,7 +201,7 @@ footer div {
 
 .footer-bottom-message span {
     color: #fff;
-    font-size: 8px;
+    font-size: var(--regular-text-size);
     position: relative;
     top: 20px;
 }
